@@ -1,0 +1,17 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: bisque;
+    text-align: center;
+}
+.container{
+    margin-top: 100px;
+}
+.container h1{
+    text-decoration: underline;
+}
+#newButton{
+    margin-top: 20px;
+    width: 120px;
+    height: 30px;
+}

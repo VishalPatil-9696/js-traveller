@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>
+    <link rel="stylesheet" href="join.css">
+</head>
+<body>
+    <div class="container">
+        <h1>WELCOME</h1>
+        <form action="submit">
+            <label for="text">Please Mention Your Name :</label>
+            <input type="text" required><br>
+            <p></p>
+            <label for="user">UserName :</label>
+            <input type="text"><br>
+            <p></p>
+            <label for="email">Gmail :</label>
+            <input type="email"placeholder="@gmail.com" required><br>
+            <p></p>
+            <label for="password">Password</label>
+            <input type="password" required><br>
+            <h3>Select Country :-</h3>
+            <select name="select" id="option">
+                <option value="">Select</option>
+                <option value="">Dubai</option>
+                <option value="">America</option>
+                <option value="">Bharat</option>
+                <option value="">Australia</option>
+            </select>
+            <p>Please mention what you think,</p>
+            <textarea name="textarea" id="text" cols="30" rows="5"></textarea><br>
+            <button id="newButton"  onclick='alert("Your Response Submitted!")'>Submit</button>
+        </form>
+    </div>
+</body>
+</html>
